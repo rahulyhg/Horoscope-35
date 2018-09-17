@@ -1,4 +1,4 @@
-package com.java.swing.horoscope;
+﻿package com.java.swing.horoscope;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -196,25 +196,25 @@ public class Interfacelayer {
 		leftPanel.add(femaleRdBtn_2);
 		
 		ButtonGroup group_1=new ButtonGroup();
-        group_1.add(maleRdBtn_1);
-        group_1.add(femaleRdBtn_2);
+        	group_1.add(maleRdBtn_1);
+        	group_1.add(femaleRdBtn_2);
         
-        JLabel label_1 = new JLabel("\u8BF7\u9009\u62E9\u6027\u522B\uFF1A");
-        label_1.setFont(new Font("微软雅黑", Font.BOLD, 15));
-        label_1.setBounds(10, 10, 100, 35);
-        leftPanel.add(label_1);
+        	JLabel label_1 = new JLabel("\u8BF7\u9009\u62E9\u6027\u522B\uFF1A");
+        	label_1.setFont(new Font("微软雅黑", Font.BOLD, 15));
+        	label_1.setBounds(10, 10, 100, 35);
+        	leftPanel.add(label_1);
         
-        JLabel lblNewLabel = new JLabel("\u8BF7\u9009\u62E9\u51FA\u751F\u5E74\u6708\u65E5\uFF1A");
-        lblNewLabel.setFont(new Font("微软雅黑", Font.BOLD, 15));
-        lblNewLabel.setBounds(10, 51, 150, 35);
-        leftPanel.add(lblNewLabel);
+        	JLabel lblNewLabel = new JLabel("\u8BF7\u9009\u62E9\u51FA\u751F\u5E74\u6708\u65E5\uFF1A");
+        	lblNewLabel.setFont(new Font("微软雅黑", Font.BOLD, 15));
+        	lblNewLabel.setBounds(10, 51, 150, 35);
+        	leftPanel.add(lblNewLabel);
         
         
-        dateTextField_1 = new JTextField();
-        dateTextField_1.setBounds(158, 55, 200, 30);
-        dateTextField_1.setText("xxxx-xx-xx");
-        ser_1.register(dateTextField_1);
-        leftPanel.add(dateTextField_1);
+        	dateTextField_1 = new JTextField();
+        	dateTextField_1.setBounds(158, 55, 200, 30);
+        	dateTextField_1.setText("xxxx-xx-xx");
+        	ser_1.register(dateTextField_1);
+        	leftPanel.add(dateTextField_1);
    
 		
 		JPanel rightPanel = new JPanel();
@@ -232,8 +232,8 @@ public class Interfacelayer {
 		rightPanel.add(radioButton_1);
 		
 		ButtonGroup group_2=new ButtonGroup();
-        group_2.add(maleRdBtn_1);
-        group_2.add(femaleRdBtn_2);
+        	group_2.add(maleRdBtn_1);
+        	group_2.add(femaleRdBtn_2);
 		
 		JLabel labelRight = new JLabel("\u8BF7\u9009\u62E9\u6027\u522B\uFF1A");
 		labelRight.setFont(new Font("微软雅黑", Font.BOLD, 15));
